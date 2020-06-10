@@ -98,5 +98,12 @@ background: #ffc4e1;
    float: none;
    width:100%;
  }
+ .tab {
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   box-sizing:border-box;
+   background-image: url("./Misc/parallax_mountain_pack/layers/parallax-mountain-bg.png");
+ }
 
 }

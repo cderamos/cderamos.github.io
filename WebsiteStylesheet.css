@@ -1,8 +1,14 @@
-
-
-
-
-
+/*mobile view*/
+/*Assume max width or 480px*/
+@media screen and (min-width:600px) {
+ #wrapper{
+   width: 400px;
+ }
+ #infoBox{
+   float: none;
+   width:100%;
+ }
+}
 
 @font-face {
   font-family: 'kongtext';
@@ -87,15 +93,4 @@ background: #ffc4e1;
 }
 #contactLinks{
   margin-left:95px;
-}
-/*mobile view*/
-/*Assume max width or 480px*/
-@media screen and (max-width:100%) {
- #wrapper{
-   width: 400px;
- }
- #infoBox{
-   float: none;
-   width:100%;
- }
 }

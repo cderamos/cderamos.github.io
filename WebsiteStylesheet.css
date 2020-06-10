@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'kongtext';
+  src: local('kongtext'), url(./Misc/kongtext/kongtext.ttf) format('truetype');
+}
+body{
+  font-family: 'kongtext';
+  margin-top:75px;
+}
+.columnOne {
+  float:left;
+  margin-top:30px;
+  margin-left:100px;
+}
+
+.columnOne h2{
+  margin-left:75px;
+}
+.columnTwo{
+  float:right;
+  margin-top:30px;
+  margin-right:200px;
+}
+
+.nes-container {
+ width:600px;
+ height:600px;
+background: #FFA500;
+}
+.tab {
+  overflow: hidden;
+  margin:-5px;
+  padding-left:12px;
+}
+.tablinks{
+  margin-right:-17px;
+}
+.tabContent{
+  display:none;
+  border-top:none;
+}
+#infoBox {
+  float:right;
+  width:600px;
+  height:600px;
+}
+#wrapper{
+  margin-left:auto;
+  margin-right:auto;
+  width:1500px;
+}
+#contactLinks{
+  margin-top:25px;
+  margin-left:100px;
+}

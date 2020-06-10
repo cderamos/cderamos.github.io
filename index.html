@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Charmaine De Ramos </title>
+    <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
+    <link rel="stylesheet" type="text/css" href="C:\Users\Charmaine\Documents\GitHub\cderamos.github.io\WebsiteStylesheet.css">
+    </head>
+
+      <script src="WebsiteJS.js">
+      </script>
+      <body onload="document.getElementById('activeTab').click();">
+      <div id="wrapper">
+        <div id="personalInfo" class="columnOne">
+          <img src="./Misc/pixelMe.png" alt="pixelMe">
+          <h2> Hello There! </h2>
+          <div id="contactLinks">
+            <!-- github -->
+            <i class="nes-icon github is-large"></i>
+            <!-- linkedin -->
+            <i class="nes-icon linkedin is-large"></i>
+            <!-- gmail -->
+            <i class="nes-icon gmail is-large"></i>
+          </div>
+        </div>
+
+        <div id="infoBox" class="columnTwo">
+        <div class="tab">
+          <button class="tablinks" id="activeTab" onclick="openTab(event, 'aboutMe')">About Me</button>
+          <button class="tablinks" id="resume" onclick="openTab(event, 'myResume')">Resume</button>
+          <button class="tablinks" id="projects" onclick="openTab(event, 'myProjects')">Projects</button>
+        </div>
+
+        <div class="tabContent" id="aboutMe">
+          <div class="nes-container is-centered is-rounded">
+            <h3> I'm Charmaine </h3>
+            <p> I am a 4th-year student at the University of Ottawa, majoring in Computer Science and Minoring in Psychology </p>
+            <br>
+            <p> I enjoy climbing (bouldering, lead, and top rope) and PC gaming. One of all-time favorite games is Star Wars Battlefront 2 (2017).
+          </div>
+        </div>
+        <div class="tabContent" id="myResume">
+          <div class="nes-container is-centered is-rounded">
+            <h3> Resume Here</h3>
+          </div>
+        </div>
+        <div class="tabContent" id="myProjects">
+          <div class="nes-container is-centered is-rounded">
+            <h3>This website is a project :) </h3>
+          </div>
+        </div>
+        </div>
+      </div>
+
+</body>
+</html>
+    </body>
+</html>

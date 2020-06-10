@@ -4,11 +4,10 @@
 }
 body{
   font-family: 'kongtext';
-  background: url("./Misc/parallax_mountain_pack/layers/parallax-mountain-bg.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./Misc/parallax_mountain_pack/layers/parallax-mountain-bg.png");
 }
 .columnOne {
   float:left;
@@ -43,24 +42,6 @@ background: #ffc4e1;
   display:none;
   border-top:none;
 }
-.email .tooltip{
-  visibility: hidden;
-  position: absolute;
-  z-index:1;
-  font-size: 13px;
-  width:165px;
-  font-family:arial;
-  text-align:center;
-  background-color:black;
-  color: #fff;
-  border-radius:5px;
-  padding:5px 0;
-  margin-top:35px;
-  margin-left:-15px;
-}
-.email:hover .tooltip{
-    visibility: visible;
-}
 #infoBox {
   float:right;
   width:600px;
@@ -74,5 +55,5 @@ background: #ffc4e1;
 }
 #contactLinks{
   margin-top:25px;
-  margin-left:100px;
+  margin-left:75px;
 }

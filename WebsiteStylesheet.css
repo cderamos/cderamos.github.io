@@ -4,7 +4,12 @@
 }
 body{
   font-family: 'kongtext';
-  margin-top:75px;
+  background-repeat: no-repeat;
+  padding-top:300px;
+  height:100%;
+  background-position: bottom bottom;
+  background-size: cover;
+  background-image: url("./Misc/parallax_mountain_pack/layers/parallax-mountain-bg.png");
 }
 .columnOne {
   float:left;
@@ -14,6 +19,7 @@ body{
 
 .columnOne h2{
   margin-left:75px;
+  color:black;
 }
 .columnTwo{
   float:right;
@@ -24,7 +30,7 @@ body{
 .nes-container {
  width:600px;
  height:600px;
-background: #FFA500;
+background: #ffc4e1;
 }
 .tab {
   overflow: hidden;
@@ -38,12 +44,31 @@ background: #FFA500;
   display:none;
   border-top:none;
 }
+.email .tooltip{
+  visibility: hidden;
+  position: absolute;
+  z-index:1;
+  font-size: 13px;
+  width:165px;
+  font-family:arial;
+  text-align:center;
+  background-color:black;
+  color: #fff;
+  border-radius:5px;
+  padding:5px 0;
+  margin-top:35px;
+  margin-left:-15px;
+}
+.email:hover .tooltip{
+    visibility: visible;
+}
 #infoBox {
   float:right;
   width:600px;
   height:600px;
 }
 #wrapper{
+  margin-top:-100px;
   margin-left:auto;
   margin-right:auto;
   width:1500px;

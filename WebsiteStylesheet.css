@@ -4,10 +4,11 @@
 }
 body{
   font-family: 'kongtext';
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-image: url("./Misc/parallax_mountain_pack/layers/parallax-mountain-bg.png");
+  background: url("./Misc/parallax_mountain_pack/layers/parallax-mountain-bg.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .columnOne {
   float:left;

@@ -90,15 +90,7 @@ background: #ffc4e1;
 }
 /*mobile view*/
 /*Assume max width or 480px*/
-@media screen and (max-width:480px) {
-  body{
-    font-family: 'kongtext';
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    box-sizing:border-box;
-    background-image: url("./Misc/parallax_mountain_pack/layers/parallax-mountain-bg.png");
-  }
+@media screen and (max-width:120%) {
  #wrapper{
    width: 400px;
  }

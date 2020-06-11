@@ -6,19 +6,19 @@
 }
 
 body{
+  margin:0;
   font-family: 'kongtext';
 }
+
 html{
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  box-sizing:border-box;
-  background-image: url("./Misc/parallax_mountain_pack/layers/parallax-mountain-bg.png");
+  background: url("./Misc/parallax_mountain_pack/layers/parallax-mountain-bg.png")no-repeat center center fixed;
+  background-size:cover;
 }
 .columnOne {
+  position:relative;
   float:left;
   margin-top:30px;
-  margin-left:100px;
+  left:150px;
 }
 
 .columnOne h2{
@@ -28,12 +28,11 @@ html{
 .columnTwo{
   float:right;
   margin-top:30px;
-  margin-right:200px;
 }
 
 .nes-container {
- width:600px;
- height:600px;
+ width:100%;
+ height:100%;
 background: #ffc4e1;
 }
 .tab {
@@ -72,10 +71,8 @@ background: #ffc4e1;
   height:600px;
 }
 #wrapper{
-  margin-top:7%;
-  margin-left:auto;
-  margin-right:auto;
-  width:1500px;
+  margin:0 auto;
+  width:100%;
 }
 #contact {
   margin-top:30px;
@@ -87,15 +84,25 @@ background: #ffc4e1;
   margin-left:95px;
 }
 /*mobile view*/
-/*Assume max width or 480px*/
+/*Assume max width or 480px
 @media screen and (max-width:680px) {
+  .columnOne {
+    position:relative;
+    float:left;
+    margin-top:30px;
+    left:150px;
+  }
+  .columnTwo{
+    float:right;
+    margin-top:30px;
+  }
+
  #wrapper{
-   float:none;
-   width: 100%;
-   display:block;
+   margin:0 auto;
+   width:100%;
  }
  #infoBox{
    float: none;
    width:100%;
- }
+ }*/
 }

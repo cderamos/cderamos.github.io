@@ -85,25 +85,17 @@ background: #ffc4e1;
   margin-left:95px;
 }
 /*mobile view*/
-/*Assume max width or 480px
-@media screen and (max-width:680px) {
+/*Assume max width or 480px*/
+@media screen and (min-width:0px) {
+
   .columnOne {
-    position:relative;
-    float:left;
-    margin-top:30px;
-    left:150px;
+
+    width:50%;
   }
   .columnTwo{
-    float:right;
-    margin-top:30px;
+    margin-top:20%;
+    width:100%;
   }
 
- #wrapper{
-   margin:0 auto;
-   width:100%;
- }
- #infoBox{
-   float: none;
-   width:100%;
- }*/
+
 }

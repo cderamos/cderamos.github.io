@@ -19,7 +19,6 @@ html{
   float:left;
   left:20%;
   top:150px;
-  margin-right:5%;
 }
 
 .columnOne h2{
@@ -30,7 +29,7 @@ html{
   position:relative;
   float:right;
   margin-top:30px;
-  margin-left:5%;
+  margin-left:20%;
   right:20%;
   top:150px;
 }

@@ -12,6 +12,7 @@ body{
 html{
   background: url("./Misc/parallax_mountain_pack/layers/parallax-mountain-bg.png")no-repeat center center fixed;
   background-size:cover;
+  max-width:100%;
 }
 .columnOne {
   float:left;

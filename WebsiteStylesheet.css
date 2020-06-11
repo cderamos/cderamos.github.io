@@ -15,10 +15,10 @@ html{
   background-size:cover;
 }
 .columnOne {
-  position:relative;
+  position:absolute;
   float:left;
-  margin-top:30px;
-  left:150px;
+  left:350px;
+  top:150px;
 }
 
 .columnOne h2{
@@ -26,8 +26,11 @@ html{
   color:black;
 }
 .columnTwo{
+  position:absolute;
   float:right;
   margin-top:30px;
+  right:350px;
+  top:150px;
 }
 
 .nes-container {

@@ -45,6 +45,7 @@ background: #ffc4e1;
   overflow: hidden;
   margin:-5px;
   padding-left:12px;
+
 }
 .tablinks{
   margin-right:-17px;
@@ -89,20 +90,30 @@ background: #ffc4e1;
 /*mobile view*/
 /*Assume max width or 480px*/
 @media screen and (max-width:780px) {
-  body{
-width:50%;
-  }
   .columnOne {
-    margin:0 auto;
+  margin:0 auto;
     width:100%;
   }
   .columnTwo{
-    float:left;
-    clear:both;
-    margin-left:25%;
-
-  }
-  wrapper{
+    margin-top:20%;
     width:100%;
   }
+  #contactLinks{
+   width:100%;
+   margin:0 auto;
+   padding-left:90px
+  }
+  #infoBox {
+    width:100%;
+    padding-top:50%;
+    padding-left:20px;
+    margin:0 auto;
+  }
+  .nes-container{
+    width:150%;
+  }
+  .tab{
+    width:150%;
+  }
+
 }

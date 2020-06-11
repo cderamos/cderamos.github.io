@@ -6,7 +6,6 @@
 }
 
 body{
-  margin:0;
   font-family: 'kongtext';
 }
 
@@ -74,7 +73,6 @@ background: #ffc4e1;
   height:600px;
 }
 #wrapper{
-  margin:0 auto;
   width:100%;
 }
 #contact {

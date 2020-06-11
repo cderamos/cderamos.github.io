@@ -86,7 +86,7 @@ background: #ffc4e1;
 }
 /*mobile view*/
 /*Assume max width or 480px*/
-@media screen and (max-width:680px) {
+@media screen and (max-width:620px) {
 
   .columnOne {
 
@@ -96,6 +96,4 @@ background: #ffc4e1;
     margin-top:20%;
     width:100%;
   }
-
-
 }

@@ -7,6 +7,8 @@
 
 body{
   font-family: 'kongtext';
+}
+html{
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -70,7 +72,7 @@ background: #ffc4e1;
   height:600px;
 }
 #wrapper{
-    margin-top:7%;
+  margin-top:7%;
   margin-left:auto;
   margin-right:auto;
   width:1500px;
@@ -86,9 +88,11 @@ background: #ffc4e1;
 }
 /*mobile view*/
 /*Assume max width or 480px*/
-@media screen and (max-width:490px) {
+@media screen and (max-width:680px) {
  #wrapper{
-   width: 400px;
+   float:none;
+   width: 100%;
+   display:block;
  }
  #infoBox{
    float: none;

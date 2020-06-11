@@ -15,7 +15,7 @@ html{
   background-size:cover;
 }
 .columnOne {
-  position:relative;
+  position:absolute;
   float:left;
   left:20%;
   top:150px;
@@ -26,7 +26,7 @@ html{
   color:black;
 }
 .columnTwo{
-  position:relative;
+  position:absolute;
   float:right;
   margin-top:30px;
   right:20%;

@@ -6,6 +6,7 @@
 }
 
 body{
+  margin:0;
   font-family: 'kongtext';
 }
 
@@ -14,10 +15,11 @@ html{
   background-size:cover;
 }
 .columnOne {
-  position:absolute;
+  position:relative;
   float:left;
   left:20%;
   top:150px;
+  margin-right:5%;
 }
 
 .columnOne h2{
@@ -25,9 +27,10 @@ html{
   color:black;
 }
 .columnTwo{
-  position:absolute;
+  position:relative;
   float:right;
   margin-top:30px;
+  margin-left:5%;
   right:20%;
   top:150px;
 }
@@ -73,6 +76,7 @@ background: #ffc4e1;
   height:600px;
 }
 #wrapper{
+  margin:0 auto;
   width:100%;
 }
 #contact {

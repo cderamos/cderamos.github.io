@@ -15,8 +15,8 @@ html{
   background-size:cover;
 }
 .columnOne {
-  position:relative;
   float:left;
+  position: absolute;
   left:20%;
   top:150px;
 }
@@ -26,10 +26,10 @@ html{
   color:black;
 }
 .columnTwo{
-  position:relative;
   float:right;
+  position: absolute;
   margin-top:30px;
-  margin-left:500%;
+  margin-left:20%;
   right:20%;
   top:150px;
 }
@@ -70,7 +70,6 @@ background: #ffc4e1;
     visibility: visible;
 }
 #infoBox {
-  float:right;
   width:600px;
   height:600px;
 }

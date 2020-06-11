@@ -15,7 +15,7 @@ html{
 }
 .columnOne {
   float:left;
-  position: absolute;
+  position: relative;
   left:20%;
   top:150px;
 }
@@ -26,10 +26,8 @@ html{
 }
 .columnTwo{
   float:right;
-  position: absolute;
-  margin-top:30px;
-  margin-left:20%;
-  right:20%;
+  margin-top:10%;
+  margin-right:10%;
   top:150px;
 }
 

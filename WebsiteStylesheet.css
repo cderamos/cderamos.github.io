@@ -6,38 +6,37 @@
   font-family: 'kongtext';
   src: local('kongtext'), url(./Misc/kongtext/kongtext.ttf) format('truetype');
 }
-
 body{
   font-family: 'kongtext';
-}
-
-html{
-  background: url("./Misc/parallax_mountain_pack/layers/parallax-mountain-bg.png")no-repeat center center fixed;
-  background-size:cover;
-  width:100%;
+  background-repeat: no-repeat;
+  padding-top:300px;
+  padding-top:15%;
+  height:100%;
+  background-position: bottom bottom;
+  background-size: cover;
+  background-image: url("./Misc/parallax_mountain_pack/layers/parallax-mountain-bg.png");
 }
 .columnOne {
   float:left;
   clear:both;
-  width:50%;
+
   position: relative;
-  left:20%;
+  width:50%
+
   top:150px;
 }
-
 .columnOne h2{
   margin-left:60px;
   color:black;
+
 }
 .columnTwo{
   float:right;
-  width:50%;
-  margin-top:10%;
-  margin-right:10%;
+  margin-top:30px;
+  margin-right:200px;
 }
-
 .nes-container {
- width:100%;
+	 width:100%;
  height:100%;
 background: #ffc4e1;
 }
@@ -45,7 +44,6 @@ background: #ffc4e1;
   overflow: hidden;
   margin:-5px;
   padding-left:12px;
-
 }
 .tablinks{
   margin-right:-17px;
@@ -73,19 +71,23 @@ background: #ffc4e1;
     visibility: visible;
 }
 #infoBox {
+  float:right;
   width:600px;
   height:600px;
 }
-#wrapper {
-  width:1800px;
+#wrapper{
+  margin-top:-100px;
+  margin-left:auto;
+  margin-right:auto;
+  width:1500px;
 }
-
-#contact {
-  margin-left:120px;
+#contact{
+  position:relative;
+  left:30%
 }
 #contactLinks{
-  clear:both;
-  margin-left:95px;
+  margin-top:25px;
+  margin-left:100px;
 }
 /*mobile view*/
 /*Assume max width or 480px*/

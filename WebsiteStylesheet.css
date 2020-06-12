@@ -102,7 +102,7 @@ background: #ffc4e1;
     margin-top:20%;
   }
   #contactLinks{
-    width:100%;
+    width:120%;
   }
   #infoBox {
     width:100%;
@@ -129,10 +129,10 @@ background: #ffc4e1;
      padding-left:40%;
   }
   #personalInfo h2{
-    width:130%;
+    width:140%;
   }
   #contact {
-    padding-left:20%;
+    left:55%;
   }
   @media screen and (max-width:320px) {
   body{

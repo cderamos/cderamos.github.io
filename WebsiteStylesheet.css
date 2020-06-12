@@ -115,6 +115,9 @@ background: #ffc4e1;
   .tab{
     width:174%;
   }
+  .tablinks{
+    background:#F0F0F0;
+  }
   #wrapper{
  width:auto;
     height:auto;
@@ -159,6 +162,9 @@ background: #ffc4e1;
   }
   .tab{
     width:174%;
+  }
+  .tablinks{
+    background:#F0F0F0;
   }
   #wrapper{
  width:auto;

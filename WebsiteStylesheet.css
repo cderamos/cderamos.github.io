@@ -95,6 +95,7 @@ background: #ffc4e1;
     max-height:100%;
   }
   .columnOne {
+    padding-top:15%;
     width:120%;
     padding-left:30%;
   }

@@ -90,14 +90,9 @@ background: #ffc4e1;
   margin-left:100px;
 }
 @media screen and (max-width:780px) {
-    .columnOne {
-      padding-top:15%;
-      width:120%;
-      padding-left:30%;
-    }
-    .columnTwo{
-      margin-top:20%;
-    }
+  .columnOne{
+    right:5%;
+  }
     #contactLinks{
       width:120%;
     }
@@ -122,8 +117,8 @@ background: #ffc4e1;
       height:100%;
     }
     .tab button{
-      padding-left:50%;
-      padding-right:50%;
+      width:inherit;
+      padding-right:65%;
     }
     #personalInfo{
        margin: auto;

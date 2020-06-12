@@ -90,101 +90,98 @@ background: #ffc4e1;
   margin-left:100px;
 }
 @media screen and (max-width:780px) {
-  html, body
-  {
-    margin:0; /* remove default margin */
-    padding:0; /* remove default padding */
-    width:100%; /* take full browser width */
-    height:100%; /* take full browser height*/
-  }
+  @media screen and (max-width:780px) {
 
-  .columnOne {
-    padding-top:15%;
-    width:120%;
-    padding-left:30%;
+
+    .columnOne {
+      padding-top:15%;
+      width:120%;
+      padding-left:30%;
+    }
+    .columnTwo{
+      margin-top:20%;
+    }
+    #contactLinks{
+      width:120%;
+    }
+    #infoBox {
+      width:100%;
+      padding-top:15%;
+      margin:0 auto;
+    }
+    .nes-container{
+      width:173%;
+    }
+    .tab{
+      width:174%;
+    }
+    .tablinks{
+      background:#F0F0F0;
+    }
+    #wrapper{
+       margin:0; /* remove default margin */
+      padding:0; /* remove default padding */
+      width:100%; /* take full browser width */
+      height:100%;
+    }
+    .tab button{
+      padding-left:50%;
+      padding-right:50%;
+    }
+    #personalInfo{
+       margin: auto;
+       width: 100%;
+       padding-left:40%;
+    }
+    #personalInfo h2{
+      width:140%;
+    }
+    #contact {
+      left:55%;
+    }
+    @media screen and (max-width:320px) {
+    body{
+      max-width:100%;
+      max-height:100%;
+    }
+    .columnOne {
+      width:120%;
+      padding-left:30%;
+    }
+    .columnTwo{
+      margin-top:20%;
+    }
+    #contactLinks{
+      padding-left:5%;
+    }
+    #infoBox {
+      width:100%;
+      padding-top:15%;
+      margin:0 auto;
+    }
+    .nes-container{
+      width:173%;
+    }
+    .tab{
+      width:174%;
+    }
+    .tablinks{
+      background:#F0F0F0;
+    }
+    #wrapper{
+   width:auto;
+      height:auto;
+    }
+    .tab button{
+      padding-left:50%;
+      padding-right:50%;
+    }
+    #personalInfo{
+       margin: auto;
+       width: 100%;
+       padding-left:25%;
+    }
+    #personalInfo h2{
+      width:150%;
+    }
   }
-  .columnTwo{
-    margin-top:20%;
-  }
-  #contactLinks{
-    width:120%;
-  }
-  #infoBox {
-    width:100%;
-    padding-top:15%;
-    margin:0 auto;
-  }
-  .nes-container{
-    width:173%;
-  }
-  .tab{
-    width:174%;
-  }
-  .tablinks{
-    background:#F0F0F0;
-  }
-  #wrapper{
- width:auto;
-    height:auto;
-  }
-  .tab button{
-    padding-left:50%;
-    padding-right:50%;
-  }
-  #personalInfo{
-     margin: auto;
-     width: 100%;
-     padding-left:40%;
-  }
-  #personalInfo h2{
-    width:140%;
-  }
-  #contact {
-    left:55%;
-  }
-  @media screen and (max-width:320px) {
-  body{
-    max-width:100%;
-    max-height:100%;
-  }
-  .columnOne {
-    width:120%;
-    padding-left:30%;
-  }
-  .columnTwo{
-    margin-top:20%;
-  }
-  #contactLinks{
-    padding-left:5%;
-  }
-  #infoBox {
-    width:100%;
-    padding-top:15%;
-    margin:0 auto;
-  }
-  .nes-container{
-    width:173%;
-  }
-  .tab{
-    width:174%;
-  }
-  .tablinks{
-    background:#F0F0F0;
-  }
-  #wrapper{
- width:auto;
-    height:auto;
-  }
-  .tab button{
-    padding-left:50%;
-    padding-right:50%;
-  }
-  #personalInfo{
-     margin: auto;
-     width: 100%;
-     padding-left:25%;
-  }
-  #personalInfo h2{
-    width:150%;
-  }
-}

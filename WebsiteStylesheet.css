@@ -92,7 +92,10 @@ background: #ffc4e1;
 @media screen and (max-width:780px) {
   html, body
   {
-    width:100%;
+    margin:0; /* remove default margin */
+    padding:0; /* remove default padding */
+    width:100%; /* take full browser width */
+    height:100%; /* take full browser height*/
   }
 
   .columnOne {

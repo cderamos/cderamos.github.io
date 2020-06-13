@@ -91,13 +91,11 @@ background: #ffc4e1;
 }
 @media screen and (max-width:780px) {
   .columnOne{
-
-  float:left;
-  left:0;
-  clear:both;
-  position: relative;
-  width:50%;
-  }
+ float:left;
+ left:-5%;
+ clear:both;
+ position: relative;
+ }
     #contactLinks{
       width:120%;
     }

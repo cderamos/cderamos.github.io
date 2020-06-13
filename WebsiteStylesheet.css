@@ -19,7 +19,7 @@ body{
 .columnOne {
   float:left;
   clear:both;
-  lefT:15%;
+
   position: relative;
   width:50%
 
@@ -32,7 +32,6 @@ body{
 }
 .columnTwo{
   float:right;
-  right:20%;
   margin-top:30px;
   margin-right:200px;
 }
@@ -80,7 +79,7 @@ background: #ffc4e1;
   margin-top:-100px;
   margin-left:auto;
   margin-right:auto;
-  width:75%;
+  width:1500px;
 }
 #contact{
   position:relative;

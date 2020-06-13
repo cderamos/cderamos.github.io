@@ -19,7 +19,7 @@ body{
 .columnOne {
   float:left;
   clear:both;
-
+  left:10%;
   position: relative;
   width:50%
 

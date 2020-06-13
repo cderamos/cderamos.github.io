@@ -91,11 +91,13 @@ background: #ffc4e1;
 }
 @media screen and (max-width:780px) {
   .columnOne{
- float:left;
- left:-5%;
- clear:both;
- position: relative;
- }
+
+  float:left;
+  left:0;
+  clear:both;
+  position: relative;
+  width:50%;
+  }
     #contactLinks{
       width:120%;
     }
@@ -108,7 +110,8 @@ background: #ffc4e1;
       width:173%;
     }
     .tab{
-      width:174%;
+      width:175.5%;
+      padding-left:0;
     }
     .tablinks{
       background:#F0F0F0;
@@ -120,8 +123,8 @@ background: #ffc4e1;
       height:100%;
     }
     .tab button{
-      width:inherit;
-      padding-right:65%;
+      padding-right:50%;
+      padding-lefT:50%;
     }
     #personalInfo{
        margin: auto;

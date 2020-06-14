@@ -35,6 +35,7 @@ body{
 .nes-container {
    background: #ffc4e1;
    height:inherit;
+   overflow:auto;
 }
 .tab {
   overflow: hidden;

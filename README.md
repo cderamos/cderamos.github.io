@@ -9,5 +9,5 @@ NES theme: https://github.com/nostalgic-css/NES.css
 
 Font: https://www.dafont.com/kongtext.font
 
-Pixel Avator made on [Pixilart](https://www.pixilart.com/)
+Pixel Avatar made on [Pixilart](https://www.pixilart.com/)
 

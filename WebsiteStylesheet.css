@@ -21,9 +21,6 @@ body{
   clear:both;
   left:10%;
   position: relative;
-  width:50%
-
-  top:150px;
 }
 .columnOne h2{
   margin-left:60px;
@@ -32,13 +29,12 @@ body{
 }
 .columnTwo{
   float:right;
-  margin-top:30px;
+  margin-top:10px;
   margin-right:200px;
 }
 .nes-container {
-	 width:100%;
- height:100%;
-background: #ffc4e1;
+   background: #ffc4e1;
+   height:inherit;
 }
 .tab {
   overflow: hidden;
@@ -49,8 +45,8 @@ background: #ffc4e1;
   margin-right:-17px;
 }
 .tabContent{
+  height:100%;
   display:none;
-  border-top:none;
 }
 .email .tooltip{
   visibility: hidden;
@@ -82,11 +78,12 @@ background: #ffc4e1;
   width:1500px;
 }
 #contact{
+  top:10px;
   position:relative;
   left:30%
 }
 #contactLinks{
-  margin-top:25px;
+  margin-top:30px;
   margin-left:100px;
 }
 @media screen and (max-width:780px) {
@@ -165,6 +162,9 @@ background: #ffc4e1;
     }
     .tablinks{
       background:#F0F0F0;
+    }
+    .tab span{
+      padding-left:400px;
     }
     #wrapper{
    width:auto;
